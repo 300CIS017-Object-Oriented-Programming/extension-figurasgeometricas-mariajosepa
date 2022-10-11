@@ -7,21 +7,24 @@
 
 #include "FiguraGeometrica.h"
 
+
 class Triangulo: public FiguraGeometrica {
 
 private:
-    float base;
+    float ladoA;
+    float ladoB;
+    float ladoC;
     float altura;
 
 public:
 
     Triangulo();
-    Triangulo(float base, float altura);
+    Triangulo(float ladoA, float ladoB, float ladoC,float altura);
     void dibujarFigura() override;
     float calcularArea() override;
     float calcularPerimetro() override;
 
-    
+
 };
 
 

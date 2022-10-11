@@ -27,7 +27,7 @@ void FiguraGeometrica::dibujarFigura(int color){
             system("Color 06");
             break;
         case 6:
-            system("Color 08");
+            system("Color 02");
             break;
 
         default:
