@@ -10,4 +10,5 @@ add_subdirectory(src)
 add_subdirectory(testing)
 
 #Esta linea debe ir de ultima para que quede claro cual es la version del c++ y  no se reemplace en pasos anteriores
-set(CMAKE_CXX_STANDARD 14)
+
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")

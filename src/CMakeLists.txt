@@ -21,3 +21,4 @@ target_link_libraries(${CMAKE_PROJECT_NAME}_lib)
 
 # Instrucción que define el ejecutable a partir de las fuentes definidas
 add_executable(${BINARY}_exe ${SOURCES} Main.cpp Model/Programa.cpp Model/Programa.h)  # Las fuentes mas el archivo main
+set (CMAKE_CXX_FLAGS "${CMAKE_CXX_FLAGS} -std=c++11")
